@@ -17,7 +17,7 @@ if not os.path.exists(MODEL_CACHE):
 
 # Stable Diffusion XL
 pipe = StableDiffusionXLPipeline.from_single_file(
-    "https://huggingface.co/asiryan/juggernautXL/blob/main/juggernautXL_v7Rundiffusion.safetensors",
+    "https://huggingface.co/bluepen5805/blue_pencil-XL/resolve/main/blue_pencil-XL-v2.5.0.safetensors",
     torch_dtype=torch.float16,
 )
 

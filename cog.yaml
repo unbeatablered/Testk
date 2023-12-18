@@ -10,7 +10,6 @@ build:
     - "diffusers==0.20.2"
     - "accelerate==0.21.0"
     - "pandas==2.0.3"
-    - "tomesd"
 
   
 # predict.py defines how predictions are run on your model
